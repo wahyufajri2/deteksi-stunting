@@ -1,19 +1,19 @@
 // UTILS
 const utils = {
-  days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  days: ["Sen", "Sel", "Rab", "Kam", "Jum", "Sab", "Ahad"],
   months: [
     "Jan",
     "Feb",
     "Mar",
     "Apr",
-    "May",
+    "Mei",
     "Jun",
     "Jul",
-    "Aug",
+    "Agu",
     "Sep",
-    "Oct",
+    "Okt",
     "Nov",
-    "Dec",
+    "Des",
   ],
 };
 
@@ -22,13 +22,13 @@ const lineChartData = {
   labels: utils.days,
   datasets: [
     {
-      label: "Profit",
-      data: [1, 5, 0, 1, 0, 4, 5],
+      label: "Laki-laki",
+      data: [4, 3, 5, 2, 3, 4, 5],
       borderWidth: 1,
     },
     {
-      label: "Loss",
-      data: [5, 0, 3, 1, 3, 5, 4],
+      label: "Perempuan",
+      data: [5, 4, 3, 1, 3, 5, 4],
       borderWidth: 1,
     },
   ],
@@ -38,8 +38,8 @@ const barChartData = {
   labels: utils.days,
   datasets: [
     {
-      label: "#",
-      data: [1, 5, 3, 1, 3, 4, 5],
+      label: "Jumlah Kunjungan",
+      data: [9, 7, 8, 3, 6, 9, 9],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",
         "rgba(255, 159, 64, 0.2)",

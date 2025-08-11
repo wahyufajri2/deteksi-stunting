@@ -19,7 +19,7 @@
       rel="stylesheet"
       href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css"
     />
-    <title>Adasgo - Admin Dashboard</title>
+    <title>Deteksi Stunting - Admin Dashboard</title>
   </head>
   <body>
     <!-- Main Container -->
@@ -34,7 +34,7 @@
             <div>
               <div class="sidebar-title text-white px-2">
                 <i class="block bx bxs-castle scale-150"></i>
-                <h2 class="mt-1 text-xl font-bold">AdasGo</h2>
+                <h2 class="mt-1 text-xl font-bold">Deteksi Stunting</h2>
               </div>
               <span class="mt-4 block border-t border-slate-100"></span>
             </div>
@@ -60,15 +60,15 @@
                 </div>
               </a>
             </span>
-            <span>
+            <!-- <span>
               <a href="./pages/forms.html">
                 <div class="sidebar-items">
-                  <!-- <i class="bx bxs-bar-chart-alt-2"></i> -->
+                  <i class="bx bxs-bar-chart-alt-2"></i>
                   <i class="bx bx-book-content"></i>
                   <span>Forms</span>
                 </div>
               </a>
-            </span>
+            </span> -->
           </div>
         </div>
       </aside>
@@ -167,7 +167,7 @@
             <!-- Card Component -->
             <div class="p-5 rounded-lg bg-purple-15">
               <div>
-                <h5 class="font-semibold text-sm">Total Trades</h5>
+                <h5 class="font-semibold text-sm">Total Balita Terpantau</h5>
               </div>
               <div class="mt-5 flex justify-between">
                 <div>
@@ -182,7 +182,9 @@
             <!-- Card Component -->
             <div class="p-5 rounded-lg bg-green-15">
               <div>
-                <h5 class="font-semibold text-sm">Holding Period Return</h5>
+                <h5 class="font-semibold text-sm">
+                  Persentase Balita Berisiko Stunting
+                </h5>
               </div>
               <div class="mt-5 flex justify-between">
                 <div>
@@ -197,11 +199,11 @@
             <!-- Card Component -->
             <div class="p-5 rounded-lg bg-indigo-15">
               <div>
-                <h5 class="font-semibold text-sm">Net Profit</h5>
+                <h5 class="font-semibold text-sm">Rata-rata Berat Badan</h5>
               </div>
               <div class="mt-5 flex justify-between">
                 <div>
-                  <h4 class="text-xl font-bold">2,97,874</h4>
+                  <h4 class="text-xl font-bold">20 kg</h4>
                 </div>
                 <div class="flex items-center">
                   <span class="text-sm">-0.56%</span>
@@ -212,11 +214,13 @@
             <!-- Card Component -->
             <div class="p-5 rounded-lg bg-yellow-15">
               <div>
-                <h5 class="font-semibold text-sm">Avg Durations</h5>
+                <h5 class="font-semibold text-sm">
+                  Rata-rata Pertumbuhan Bulanan
+                </h5>
               </div>
               <div class="mt-5 flex justify-between">
                 <div>
-                  <h4 class="text-xl font-bold">17 days</h4>
+                  <h4 class="text-xl font-bold">1.2 cm</h4>
                 </div>
                 <div class="flex items-center">
                   <span class="text-sm">+9.15%</span>
@@ -244,8 +248,8 @@
                   id="select-option-drawdown"
                   class="outline-0 text-sm text-gray-500 px-2"
                 >
-                  <option value="weekly">Weekly</option>
-                  <option value="monthly">Monthly</option>
+                  <option value="weekly">Mingguan</option>
+                  <option value="monthly">Bulanan</option>
                 </select>
               </div>
               <!-- Chart -->
@@ -253,11 +257,10 @@
                 <canvas id="bar-chart-1" height="270" class="mx-auto"></canvas>
               </div>
             </div>
-            <div class="md:col-span-4 bg-white rounded-lg p-4 overflow-x-auto">
+            <!-- <div class="md:col-span-4 bg-white rounded-lg p-4 overflow-x-auto">
               <div>
                 <h5 class="font-semibold">Visitor</h5>
               </div>
-              <!-- Chart -->
               <div class="w-full">
                 <canvas id="donut-chart-1" class="mx-auto"></canvas>
               </div>
@@ -266,11 +269,10 @@
               <div>
                 <h5 class="font-semibold">Visitor</h5>
               </div>
-              <!-- Chart -->
               <div class="w-full">
                 <canvas id="pie-chart-1" class="mx-auto"></canvas>
               </div>
-            </div>
+            </div> -->
           </div>
         </main>
       </div>
